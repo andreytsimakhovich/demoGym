@@ -1,0 +1,10 @@
+D:\demoGym\demoGym\demoGym\bin\Debug\demoGym.exe.config
+D:\demoGym\demoGym\demoGym\bin\Debug\demoGym.exe
+D:\demoGym\demoGym\demoGym\bin\Debug\demoGym.pdb
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.csprojAssemblyReference.cache
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.startForm.resources
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.Properties.Resources.resources
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.csproj.GenerateResource.cache
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.csproj.CoreCompileInputs.cache
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.exe
+D:\demoGym\demoGym\demoGym\obj\Debug\demoGym.pdb
