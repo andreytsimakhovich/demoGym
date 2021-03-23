@@ -51,6 +51,8 @@ namespace demoGym
             // 
             // exitButton
             // 
+            this.exitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.exitButton.AutoSize = true;
             this.exitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(211)))), ((int)(((byte)(245)))));
             this.exitButton.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.exitButton.ForeColor = System.Drawing.Color.White;
@@ -64,6 +66,8 @@ namespace demoGym
             // 
             // dataButton
             // 
+            this.dataButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataButton.AutoSize = true;
             this.dataButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(211)))), ((int)(((byte)(245)))));
             this.dataButton.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataButton.ForeColor = System.Drawing.Color.White;
@@ -73,12 +77,12 @@ namespace demoGym
             this.dataButton.TabIndex = 1;
             this.dataButton.Text = "Клиентская база";
             this.dataButton.UseVisualStyleBackColor = false;
+            this.dataButton.Click += new System.EventHandler(this.dataButton_Click);
             // 
             // registrationButton
             // 
-            this.registrationButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.registrationButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.registrationButton.AutoSize = true;
             this.registrationButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(211)))), ((int)(((byte)(245)))));
             this.registrationButton.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.registrationButton.ForeColor = System.Drawing.Color.White;
@@ -88,6 +92,7 @@ namespace demoGym
             this.registrationButton.TabIndex = 0;
             this.registrationButton.Text = "Регистрация клиента";
             this.registrationButton.UseVisualStyleBackColor = false;
+            this.registrationButton.Click += new System.EventHandler(this.registrationButton_Click);
             // 
             // startForm
             // 
@@ -100,6 +105,7 @@ namespace demoGym
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome GymApp";
             this.backPanel.ResumeLayout(false);
+            this.backPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }

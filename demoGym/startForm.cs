@@ -21,5 +21,19 @@ namespace demoGym
         {
             Application.Exit();
         }
+
+        private void registrationButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            registrationForm registrationForm = new registrationForm();
+            registrationForm.Show();
+        }
+
+        private void dataButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            databaseForm databaseForm = new databaseForm();
+            databaseForm.Show();
+        }
     }
 }
